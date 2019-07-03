@@ -1,0 +1,23 @@
+public class Main
+    {
+        
+        static double calculateSquares(double x){
+            double result = x*x;
+            return result;
+        }
+        
+        public static void main(String[] args){
+            
+            
+        System.out.println("SQUARE CALCULATOR:");
+		System.out.println(" ");
+		
+            System.out.println("Please enter a number to square.");
+            double input = Double.parseDouble(System.console().readLine());
+        System.out.println(calculateSquares(input));
+
+		System.out.println(" ");
+        System.out.println("Thank you for using Java Square Calculator!");
+        
+    }
+}
