@@ -1,0 +1,32 @@
+public class Main
+{
+  static double calculate (double a, int b)
+  {
+    double result = a;
+    for (int i = 1; i < b; i++)
+      {
+	result = result * a;
+      }
+    return result;
+  }
+
+
+  public static void main (String[]args)
+  {
+
+    System.out.println ("POWER CALCULATOR:");
+    System.out.println (" ");
+
+    System.out.println ("Please enter a number.");
+    double a = Double.parseDouble (System.console ().readLine ());
+
+    System.out.println ("Please enter a power.");
+    int b = Integer.parseInt (System.console ().readLine ());
+    double result = calculate (a, b);
+
+    System.out.println (result);
+    System.out.println (" ");
+    System.out.println ("Thank you for using Java Square Calculator!");
+
+  }
+}
