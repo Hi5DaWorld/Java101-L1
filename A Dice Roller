@@ -1,0 +1,27 @@
+import java.util.Random;
+public class Main
+{
+
+
+    
+	public static void main(String[] args) {
+	  
+	int a = 0;
+	
+	
+	System.out.println("You roll a dice.");
+    System.out.println(" ");
+   
+    
+    while (a == 0){
+    
+    Random rand = new Random();
+    a = rand.nextInt(6);
+    }
+    
+	System.out.println(a);
+	  
+	  
+	      
+    }      
+}
