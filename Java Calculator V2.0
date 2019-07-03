@@ -1,0 +1,85 @@
+public class Main{
+
+    static double calculate (double a, int b)
+      {
+        double result = a;
+        for (int i = 1; i < b; i++)
+          {
+    	result = result * a;
+          }
+        return result;
+      }
+
+
+	public static void main(String[] args) {
+
+		double aa = 0;
+		String e = "";
+		
+
+
+    while (e.equals("exit")==false){
+        
+
+		System.out.println("CALCULATION:");
+		System.out.println(" ");
+
+		System.out.println("Enter digit A, enter, and then enter digit B.");
+		double a = Double.parseDouble(System.console().readLine());
+		double b = Double.parseDouble(System.console().readLine());
+		System.out.println("Thanks.");
+
+		System.out.println("Now enter the order of operation.");
+		System.out.println("1 = addition [+]");
+		System.out.println("2 = subtraction [-]");
+		System.out.println("3 = multiplication [*]");
+		System.out.println("4 = division [/]");
+		System.out.println("5 = powers [!]");
+		int x = Integer.parseInt(System.console().readLine());
+		System.out.println("Received.");
+
+		if (x == 1){
+		    aa = (a+b);
+		System.out.println(" ");
+		System.out.println(a+" + "+b+" = "+aa);
+		}
+
+		if (x == 2){
+		System.out.println(" ");    aa = (a-b);
+		System.out.println(a+" - "+b+" = "+aa);
+		}	
+
+			if (x == 3){
+		    aa = (a*b);
+		System.out.println(" ");
+		System.out.println(a+" * "+b+" = "+aa);
+		}
+
+			if (x == 4){
+		    aa = (a/b);
+		System.out.println(" ");
+		System.out.println(a+" / "+b+" = "+aa);
+		}
+		
+			if (x == 5){
+		    double result = calculate (a, (int)b);
+		System.out.println(" ");
+		System.out.println(a+" to the power of "+b+" = "+result);
+		
+		}
+
+		System.out.println(" ");
+		e = System.console().readLine();
+		
+		
+    }	
+	
+		System.out.println(" ");
+		System.out.println("...");
+		System.out.println(" ");
+		System.out.println("Thank you for using Java Calculator. Have a nice day.");
+
+
+
+	}
+}
