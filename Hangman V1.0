@@ -1,0 +1,66 @@
+import java.util.Random;
+public class Main{
+	public static void main(String[] args) {
+
+
+
+		System.out.println("Welcome.");
+		System.out.println("To a smol hangman game.");
+		System.out.println(" ");
+
+		String str[] = new String[]{"galaxy","structure","refrigerator","turtle","ostrich","caramel","kangaroo","umbrella","caterpillar"};
+		
+		Random rand = new Random();
+        int a = rand.nextInt(8);
+        System.out.println(str[a]);
+        
+        int t = 10;
+        boolean dead = false;
+        String ref = str[a];
+        
+        while (dead == false){
+            
+        char x = (System.console().readLine()).charAt(0);
+        
+        
+        int w = (str[a].length());
+        
+        boolean check = false;
+        for (int p=0;p<w;p++){
+            char y = str[a].charAt(p);
+            if (x == y){
+                System.out.print(x);
+            
+                check = true;
+            }
+            else{
+                System.out.print("_");
+                
+            }
+            
+        }
+        
+        System.out.println(" ");
+
+
+        if(check == true){
+
+            }
+            else{
+                t = t-1;
+                
+                }
+            
+            
+            System.out.println("You have "+t+" lives left.");
+            
+            
+            if (t == 0){
+            dead = true;
+            System.out.println(" ");
+            System.out.println("Oof. Better luck next time!");
+        }
+        
+        }
+	}		
+	}
