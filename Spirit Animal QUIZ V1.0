@@ -1,0 +1,58 @@
+public class Main{
+	public static void main(String[] args) {
+
+    calculator();
+
+    }
+
+
+
+
+
+
+
+
+
+    public static void main(String[] args) {
+ 
+ 
+
+
+		System.out.println("~^-  QUIZ  -^~");
+		System.out.println("WHAT is your SPIRIT ANIMAL");
+		System.out.println(" ");
+
+
+
+		System.out.println("How do you feel about crowds?");
+		
+			System.out.println("1 = HELL YEAH! The more the merrier!");
+			System.out.println("2 = Sure, I get along well with almost everyone.");
+			System.out.println("3 = I prefer smaller, tightly-knit groups.");
+			System.out.println("4 = They're okay, but I kinda want to stay at home.");
+			System.out.println("5 = I'd rather drown myself in a bucket of prune juice.");
+			
+		    String a = String.parseString(System.console().readLine());
+		
+		if (a == "1"){
+		System.out.println(" ");
+		System.out.println("?");
+			System.out.println("1 = ");
+			System.out.println("2 = ");
+			System.out.println("3 = ");
+			System.out.println("4 = ");
+			System.out.println("5 = ");
+		String a = Double.parseDouble(System.console().readLine());
+		}
+
+	
+
+		System.out.println(" ");
+		System.out.println("...");
+		System.out.println(" ");
+		System.out.println("Thank you for using Java Calculator. Have a nice day.");
+
+
+
+    }
+}
