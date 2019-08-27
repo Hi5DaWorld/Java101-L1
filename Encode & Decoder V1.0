@@ -1,0 +1,94 @@
+
+public class Main
+{
+
+
+
+
+public static String encode (String message, int keyVal){
+    
+    
+    
+    String output = "";
+    char key =(char)keyVal;
+    for(int x = 0; x < message.length(); x++){
+        char input = message.charAt(x);
+        
+        
+    if(input >= 'A' && input <= 'Z'){
+        input += key;
+        
+        if (input < 'A')
+            input += 26;
+            
+        if (input > 'Z')
+            input -= 26;
+    }
+    
+    else if(input >= 'a' && input <= 'z'){
+        input += key;
+        
+        if(input > 'z')
+            input -= 26;
+            
+        if (input < 'a')
+            input += 26;
+    }
+    
+    else if(input >= '0' && input <= '9'){
+        input += key;
+        
+        if(input > '9')
+            input -= 10;
+            
+        if (input < '0')
+            input += 10;
+    
+    }
+    
+    output += input;
+}
+
+return output;
+}
+
+
+	public static void main(String[] args) {
+	    
+	    
+	    
+	    
+	    
+		System.out.println("");
+		
+		System.out.println("~✩.✦.✩~  encoder & decoder  ✦  ɹǝpoɔǝp ⅋ ɹǝpoɔuǝ  ~✩.✦.✩~");
+		
+		System.out.println("");
+		System.out.println("");
+		
+		System.out.println("INSERT MESSAGE HERE:");
+		String msg = (System.console().readLine());
+		
+		System.out.println("INSERT KEY HERE:");
+		int k = Integer.parseInt(System.console().readLine());
+		
+		
+		String output = encode(msg,k);
+		
+		
+		System.out.println("");
+		
+		System.out.println("Loading...");
+		System.out.println("");
+		System.out.println("");
+		
+		System.out.println("ENCODED MESSAGE: " + output);
+		
+		
+		
+		
+		
+		
+		
+	}
+}
