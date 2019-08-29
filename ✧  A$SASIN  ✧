@@ -1,0 +1,99 @@
+
+import java.util.concurrent.TimeUnit;
+
+
+
+
+
+// main program
+
+
+public class Main{
+
+    public static void main(String[] args) {
+ 
+ 
+
+
+
+
+		    System.out.print("Loading Assets");
+		    
+		        try{
+		        TimeUnit.SECONDS.sleep(1);
+		        }catch(Exception e){}
+		        
+		    for (int j=0; j<3; j++){
+		        System.out.print(".");
+		        
+		        try{
+		        TimeUnit.SECONDS.sleep(1);
+		        }catch(Exception e){}
+		    }
+		    System.out.println();
+		    System.out.println();
+		    System.out.println();
+		    System.out.println();
+		    
+		    
+		try{
+		TimeUnit.SECONDS.sleep(2);
+		}catch(Exception e){}
+		
+		
+		
+	for (int j=0; j<3; j++){
+		
+		
+		System.out.println("✧  A$SASIN  ✧");
+		
+		System.out.println();
+		
+		
+		
+		System.out.println("(press enter to continue)");
+		String con = (System.console().readLine());
+		
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
+		System.out.println("✧  A$SASIN  ✧");
+		
+		System.out.println();
+		
+		
+		
+		System.out.println();
+		con = (System.console().readLine());
+		
+	}
+
+
+
+
+		// intro
+
+		System.out.println("Syd: Hello there! You must be new!");
+		    try{
+		        TimeUnit.SECONDS.sleep(1);
+		        }catch(Exception e){}
+		System.out.println("(enter to continue)");
+		con = (System.console().readLine());
+		
+		
+		    System.out.println("!");
+
+
+		    String a = (System.console().readLine());
+
+
+
+
+
+
+    }
+}
