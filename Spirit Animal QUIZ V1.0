@@ -1,17 +1,14 @@
+
+import java.util.concurrent.TimeUnit;
+
+
+
+
+
+// main program
+
+
 public class Main{
-	public static void main(String[] args) {
-
-    quiz();
-
-    }
-
-
-
-
-
-
-
-
 
     public static void main(String[] args) {
  
@@ -21,10 +18,21 @@ public class Main{
 		System.out.println("~^-  QUIZ  -^~");
 		System.out.println("WHAT is your SPIRIT ANIMAL");
 		System.out.println(" ");
+		
+		try{
+		TimeUnit.SECONDS.sleep(2);
+		}catch(Exception e){}
 
 
+
+
+		// question 1
 
 		System.out.println("How do you feel about crowds?");
+		
+		try{
+		TimeUnit.SECONDS.sleep(1);
+		}catch(Exception e){}
 		
 			System.out.println("1 = HELL YEAH! The more the merrier!");
 			System.out.println("2 = Sure, I get along well with almost everyone.");
@@ -32,18 +40,41 @@ public class Main{
 			System.out.println("4 = They're okay, but I kinda want to stay at home.");
 			System.out.println("5 = I'd rather drown myself in a bucket of prune juice.");
 			
-		    String a = String.parseString(System.console().readLine());
+		    String a = (System.console().readLine());
 		
-		if (a == "1"){
+		// question 2
+		
 		System.out.println(" ");
-		System.out.println("?");
-			System.out.println("1 = ");
-			System.out.println("2 = ");
-			System.out.println("3 = ");
-			System.out.println("4 = ");
-			System.out.println("5 = ");
-		String a = Double.parseDouble(System.console().readLine());
-		}
+		System.out.println("How would you comfort a sick friend?");
+			
+		try{
+		TimeUnit.SECONDS.sleep(1);
+		}catch(Exception e){}
+			
+			System.out.println("1 = Pull them out of bed and PARTY HARD!!!");
+			System.out.println("2 = Tell them a joke! Laughter is the best medicine!");
+			System.out.println("3 = Say some comforting words, and they'll feel much better!");
+			System.out.println("4 = I think I'll just let them rest, they are sick, after all...");
+			System.out.println("5 = Like I'd care.");
+		
+		    String b = (System.console().readLine());
+		    
+		// question 3
+		    
+	    System.out.println(" ");
+		System.out.println("What one word would you use to describe yourself?");
+		
+		try{
+		TimeUnit.SECONDS.sleep(1);
+		}catch(Exception e){}
+		
+			System.out.println("1 = Sweet");
+			System.out.println("2 = Shy");
+			System.out.println("3 = Loyal");
+			System.out.println("4 = Brave");
+			System.out.println("5 = Humorous");
+		
+		    String c = (System.console().readLine());
 
 	
 
