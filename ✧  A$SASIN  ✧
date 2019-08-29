@@ -77,20 +77,109 @@ public class Main{
 
 		// intro
 
-		System.out.println("Syd: Hello there! You must be new!");
+		System.out.println("Hello there! You must be new!");
 		    try{
 		        TimeUnit.SECONDS.sleep(1);
 		        }catch(Exception e){}
 		System.out.println("(enter to continue)");
-		con = (System.console().readLine());
+		String con = (System.console().readLine());
 		
 		
-		    System.out.println("!");
+		    System.out.println("*you turn your head*");
+		    con = (System.console().readLine());
+		    System.out.println("*you see a bright, young boy, smiling at you*");
+		    con = (System.console().readLine());
+		    
+		    System.out.println("Syd: Hello! I'm Syd!");
+		    con = (System.console().readLine());
+		    
+		    System.out.println("You: ...");
+		    con = (System.console().readLine());
+		    
+		    System.out.println("Syd: Ahh... another quiet one, but no worries!");
+		    con = (System.console().readLine());
+		    
+		    System.out.println("Syd: Well, welcome to A$SASIN!");
+		    con = (System.console().readLine());
+		    
+		    System.out.println("Syd: I'll show you around!");
+		    con = (System.console().readLine());
 
+            System.out.println("You: ...");
+		    con = (System.console().readLine());
+		    
+		    System.out.println("Syd: Follow me!");
+		    con = (System.console().readLine());
+		    
+		    System.out.println();
+		    System.out.println("DECISION: Do you follow Syd?");
+		    System.out.println("[1] yes");
+		    System.out.println("[2] no");
+		    String dec = (System.console().readLine());
+		    
+		    if (dec.equals("1")){
+		        System.out.println("*you follow Syd*");
+		        con = (System.console().readLine());
+		    }
+		    
+		    else if (dec.equals ("2")){
+		        System.out.println("You: ...");
+		        con = (System.console().readLine());
+		        System.out.println("Syd: Come on! What are you waiting for?");
+		        con = (System.console().readLine());
+		        System.out.println("*you sigh and follow Syd*");
+		        con = (System.console().readLine());
+		    }
+		    
+		    else{
+		        System.out.println("You: ...");
+		        con = (System.console().readLine());
+		        System.out.println("Syd: Come on! What are you waiting for?");
+		        con = (System.console().readLine());
+		        System.out.println("*you sigh and follow Syd*");
+		        con = (System.console().readLine());
+		    }
 
-		    String a = (System.console().readLine());
-
-
+        try{
+		TimeUnit.SECONDS.sleep(1);
+		}catch(Exception e){}
+        
+        System.out.println();
+        System.out.println("GAME SAVED");
+        System.out.println();
+        System.out.println();
+        
+        try{
+		TimeUnit.SECONDS.sleep(1);
+		}catch(Exception e){}
+        
+            System.out.println("Syd: We're here!");
+            con = (System.console().readLine());
+            System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("*you are infront of an old, brick building covered in ivy*");
+            con = (System.console().readLine());
+            System.out.println("*on the building are fainted words reading A SA IN*");
+            
+        try{
+		TimeUnit.SECONDS.sleep(1);
+		}catch(Exception e){}
+            
+            System.out.println("*you assume it says A$SASIN*");
+            con = (System.console().readLine());
+            
+            System.out.println("Syd: Welcome to the A$SASIN headquarters!");
+            con = (System.console().readLine());
+            System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("Syd: Come on in! I'll show you to some of my friends!");
+            con = (System.console().readLine());
+            System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("*you and Syd enter the door covered with peeling paint*");
+            con = (System.console().readLine());
+            
+            
 
 
 
