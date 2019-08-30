@@ -77,7 +77,10 @@ public class Main{
 
 		// intro
 
-		System.out.println("Hello there! You must be new!");
+		System.out.println();
+		System.out.println();
+		
+		System.out.println("???: Hello there! You must be new!");
 		    try{
 		        TimeUnit.SECONDS.sleep(1);
 		        }catch(Exception e){}
@@ -118,11 +121,14 @@ public class Main{
 		    String dec = (System.console().readLine());
 		    
 		    if (dec.equals("1")){
-		        System.out.println("*you follow Syd*");
+		        System.out.println("*you decide to follow Syd*");
 		        con = (System.console().readLine());
 		    }
 		    
 		    else if (dec.equals ("2")){
+		        System.out.println();
+		        System.out.println("*you decide to not follow Syd*");
+		        con = (System.console().readLine());
 		        System.out.println("You: ...");
 		        con = (System.console().readLine());
 		        System.out.println("Syd: Come on! What are you waiting for?");
@@ -178,6 +184,176 @@ public class Main{
             con = (System.console().readLine());
             System.out.println("*you and Syd enter the door covered with peeling paint*");
             con = (System.console().readLine());
+            
+            // in the headquarters
+            
+            System.out.println("*you end up in a hallway*");
+            con = (System.console().readLine());
+            System.out.println("Syd: This way!");
+            con = (System.console().readLine());
+            System.out.println("*you follow Syd into the first room on your left*");
+            con = (System.console().readLine());
+            System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("*the room is dark*");
+            con = (System.console().readLine());
+            System.out.println("*Syd turns on a lamp*");
+            con = (System.console().readLine());
+            System.out.println("*the room is small*");
+            con = (System.console().readLine());
+            System.out.println("*you see a small table in the middle of the room*");
+            con = (System.console().readLine());
+            System.out.println("Syd: Hmm... they aren't here...");
+            con = (System.console().readLine());
+            System.out.println("Syd: Well, welcome to the dining room!");
+            con = (System.console().readLine());
+            System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("Syd: Maybe they're in the rooms...");
+            con = (System.console().readLine());
+            System.out.println("Syd: Come!");
+            con = (System.console().readLine());
+            System.out.println("*Syd leads you out of the dining room*");
+            con = (System.console().readLine());
+            System.out.println("*you notice a dirty, crumpled sticky note on the floor*");
+            con = (System.console().readLine());
+            System.out.println("*for some reason it catches your eye*");
+            con = (System.console().readLine());
+            System.out.println("DECISION: Do you pick up the sticky note?");
+            System.out.println("[1] yes");
+            System.out.println("[2] no");
+            dec = (System.console().readLine());
+            
+            if (dec.equals("1")){
+		        System.out.println("*you pick up the sticky note and put it in your pocket*");
+		        con = (System.console().readLine());
+		        System.out.println("Syd: What are you doing? We have to go meet my friends!");
+		        con = (System.console().readLine());
+		        System.out.println("You: ...");
+		        con = (System.console().readLine());
+		        System.out.println("*you follow Syd out of the room*");
+		        con = (System.console().readLine());
+		    }
+		    
+		    else if (dec.equals ("2")){
+		        System.out.println();
+		        System.out.println("*you decide to not pick up the sticky note*");
+		        con = (System.console().readLine());
+		        System.out.println("*it looks useless anyways...*");
+		        con = (System.console().readLine());
+		        System.out.println("Syd: Come quickly! We can't be late!");
+		        con = (System.console().readLine());
+		        System.out.println("You: ...");
+		        con = (System.console().readLine());
+		        System.out.println("*you follow Syd out of the dining room*");
+		        con = (System.console().readLine());
+		    }
+		    
+		    else{
+		        System.out.println("You: ...");
+		        con = (System.console().readLine());
+		        System.out.println("Syd: Come on!");
+		        con = (System.console().readLine());
+		        System.out.println("*you sigh and follow Syd to the rooms*");
+		        con = (System.console().readLine());
+		    }
+		    
+		    
+	    try{
+		TimeUnit.SECONDS.sleep(1);
+		}catch(Exception e){}
+        
+        System.out.println();
+        System.out.println("GAME SAVED");
+        System.out.println();
+        System.out.println();
+        
+        try{
+		TimeUnit.SECONDS.sleep(1);
+		}catch(Exception e){}
+            
+            
+            System.out.println("*you follow Syd*");
+            con = (System.console().readLine());
+            System.out.println("*you walk to the end of the hallway*");
+            con = (System.console().readLine());
+            System.out.println("*there are some wooden rickety stairs*");
+            con = (System.console().readLine());
+            System.out.println("Syd: The rooms are upstairs! Follow me!");
+            con = (System.console().readLine());
+            System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("*you follow Syd up the stairs*")
+            con = (System.console().readLine());
+            System.out.println("*the stairs creak under your feet*");
+            con = (System.console().readLine());
+            System.out.println("*you reach the top of the stairs*");
+            con = (System.console().readLine());
+            System.out.println("*you see eight doors in front of you*");
+            con = (System.console().readLine());
+            System.out.println("*the doors are label with wooden numbers, from one to eight*");
+            con = (System.console().readLine());
+            System.out.println("*four of the doors are old and covered with cobwebs*");
+            con = (System.console().readLine());
+            System.out.println("*the other four look fairly new*");
+            con = (System.console().readLine());
+            System.out.println("Syd: Welcome to the rooms!");
+            con = (System.console().readLine());
+            System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("Syd: This place is where we sleep, or relax!");
+            con = (System.console().readLine());
+            System.out.println("Syd: I'll call my friends to welcome you!");
+            con = (System.console().readLine());
+            System.out.println("*you watch Syd knock on all the doors three times*");
+            con = (System.console().readLine());
+            System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("Syd: You must be confused - we have a knocking code!");
+            con = (System.console().readLine());
+            System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("Syd: When someone knocks on your door three times, it means a group meeting!");
+            con = (System.console().readLine());
+            System.out.println("*suddenly door TWO opens*");
+            con = (System.console().readLine());
+            System.out.println("*a young girl with bouncy brown hair opens peeks out from the doorframe*");
+            con = (System.console().readLine());
+            System.out.println("???: You called us, Syd?");
+            con = (System.console().readLine());
+            System.out.println("Syd: Yup! We have a newcomer!");
+            con = (System.console().readLine());
+            System.out.println("*the girl seemed momentarily shocked*");
+            con = (System.console().readLine());
+            System.out.println("???: Oh, yes. Welcome to the A$SASIN headquarters!");
+            con = (System.console().readLine());
+            System.out.println("Syd: Mindy, this is -");
+            con = (System.console().readLine());
+            System.out.println("Syd: Oh right... I never asked for your name!");
+            con = (System.console().readLine());
+            System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("PLEASE INSERT YOUR NAME:");
+            name = (System.console().readLine());
+            System.out.println("You: "+name+".");
+            con = (System.console().readLine());
+            System.out.println("Syd: Huh?");
+            con = (System.console().readLine());
+            System.out.println("You: My name. "+name+".");
+            con = (System.console().readLine());
+            System.out.println("Syd: Oh! Sorry! Why, welcome to the game, "+name+"!");
+            con = (System.console().readLine());
+            System.out.println("Mindy: Hello "+name+"! I'm sure you'll love it here!");
+            con = (System.console().readLine());
+            System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("*suddenly, door ONE and door FOUR opens*");
+            con = (System.console().readLine());
+            System.out.println("*a girl with black hair and dull green eyes emerges from door FOUR*");
+            con = (System.console().readLine());
+            System.out.println("*door ONE is a boy with ");
+            con = (System.console().readLine());
+
             
             
 
