@@ -283,7 +283,7 @@ public class Main{
             con = (System.console().readLine());
             System.out.println("You: ...");
             con = (System.console().readLine());
-            System.out.println("*you follow Syd up the stairs*")
+            System.out.println("*you follow Syd up the stairs*");
             con = (System.console().readLine());
             System.out.println("*the stairs creak under your feet*");
             con = (System.console().readLine());
@@ -305,7 +305,7 @@ public class Main{
             con = (System.console().readLine());
             System.out.println("Syd: I'll call my friends to welcome you!");
             con = (System.console().readLine());
-            System.out.println("*you watch Syd knock on all the doors three times*");
+            System.out.println("*you watch Syd knock on all the four new doors three times*");
             con = (System.console().readLine());
             System.out.println("You: ...");
             con = (System.console().readLine());
@@ -334,7 +334,7 @@ public class Main{
             System.out.println("You: ...");
             con = (System.console().readLine());
             System.out.println("PLEASE INSERT YOUR NAME:");
-            name = (System.console().readLine());
+            String name = (System.console().readLine());
             System.out.println("You: "+name+".");
             con = (System.console().readLine());
             System.out.println("Syd: Huh?");
@@ -346,6 +346,14 @@ public class Main{
             System.out.println("Mindy: Hello "+name+"! I'm sure you'll love it here!");
             con = (System.console().readLine());
             System.out.println("You: ...");
+            con = (System.console().readLine());
+            System.out.println("You: Game?");
+            con = (System.console().readLine());
+            System.out.println("*no one answers*");
+            con = (System.console().readLine());
+            System.out.println("*Mindy shrugs*");
+            con = (System.console().readLine());
+            System.out.println("Syd: Game? That's ridiculous. It's nothing, right Mindy?");
             con = (System.console().readLine());
             System.out.println("*suddenly, door ONE and door FOUR opens*");
             con = (System.console().readLine());
