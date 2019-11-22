@@ -1,0 +1,73 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("square 1 length?");
+		int l1 = Integer.parseInt(System.console().readLine());
+		System.out.println("square 1 width?");
+		int w1 = Integer.parseInt(System.console().readLine());
+		
+		System.out.println("square 2 length?");
+		int l2 = Integer.parseInt(System.console().readLine());
+		System.out.println("square 2 width?");
+		int w2 = Integer.parseInt(System.console().readLine());
+		
+		System.out.println("square 3 length?");
+		int l3 = Integer.parseInt(System.console().readLine());
+		System.out.println("square 3 width?");
+		int w3 = Integer.parseInt(System.console().readLine());
+		
+	if (l1==l2){
+	    if (w1+w2==l3&&w3+l1==l3){
+	        System.out.println("yay :)");
+	}
+	else{
+	    System.out.println("impossible :c");
+	}
+	}
+	else if (l1==l3){
+	    if (w1+w3==l2&&w2+l1==l2){
+	        System.out.println("yay :)");
+	}
+	else{
+	    System.out.println("impossible :c");
+	}
+	}
+	else if (l2==l3){
+	    if (w2+w3==l1&&w1+l2==l1){
+	        System.out.println("yay :)");
+	}
+	else{
+	    System.out.println("impossible :c");
+	}
+	}
+    
+    else if (w1==w2){
+	    if (l1+l2==w3&&l3+w1==w3){
+	        System.out.println("yay :)");
+	}
+	else{
+	    System.out.println("impossible :c");
+	}
+	}
+	else if (w1==w3){
+	    if (l1+l3==w2&&l2+w1==w2){
+	        System.out.println("yay :)");
+	}
+	else{
+	    System.out.println("impossible :c");
+	}
+	}
+	else if (w2==w3){
+	    if (l2+l3==w1&&l1+w2==w1){
+	        System.out.println("yay :)");
+	}
+	else{
+	    System.out.println("impossible :c");
+	}
+	}
+
+	else{
+	    System.out.println("impossible :c");
+	}
+	}
+}
