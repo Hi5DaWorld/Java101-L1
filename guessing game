@@ -26,7 +26,7 @@ public class Main
 	  {
 	    System.out.println ("yay u did it after like " + i + " tries");
 	  }
-	else if (i == 7)
+	if (i == 6)
 	  {
 	    System.out.println ("screw u- u failed");
 	    System.out.println ("the number was " + number);
