@@ -13,7 +13,7 @@ public class Main{
 
         char pw[] = new char[20];
 		String str[] = new String[]{"aardvark","crocodile","giraffe","alligator","ostrich","plankton","seahorse","whale","dinosaur",
-		"caterpillar","elephant","penguin","squid","octopus","aliem","skunk","jackal","donkey","shark","leopard","jaguar",
+		"caterpillar","elephant","penguin","squid","octopus","alien","skunk","jackal","donkey","shark","leopard","jaguar",
 		"badger","raccoon","eagle","monkey","beaver","human","gorilla","boar","bear","mouse","goldfish","hippopotamus","turtle"};
 
 		char uc[] = new char[50]; //used character
