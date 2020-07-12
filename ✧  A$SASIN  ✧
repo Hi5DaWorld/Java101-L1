@@ -133,7 +133,7 @@ public class Main{
 		        con = (System.console().readLine());
 		        System.out.println("Syd: Come on! What are you waiting for?");
 		        con = (System.console().readLine());
-		        System.out.println("*you sigh and follow Syd*");
+		        System.out.println("*you feel like you have no choice but to follow Syd*");
 		        con = (System.console().readLine());
 		    }
 		    
@@ -233,6 +233,7 @@ public class Main{
 		        con = (System.console().readLine());
 		        System.out.println("*you follow Syd out of the room*");
 		        con = (System.console().readLine());
+		        int decsticky = 1
 		    }
 		    
 		    else if (dec.equals ("2")){
@@ -247,6 +248,7 @@ public class Main{
 		        con = (System.console().readLine());
 		        System.out.println("*you follow Syd out of the dining room*");
 		        con = (System.console().readLine());
+		        int decsticky = 2
 		    }
 		    
 		    else{
@@ -256,6 +258,7 @@ public class Main{
 		        con = (System.console().readLine());
 		        System.out.println("*you sigh and follow Syd to the rooms*");
 		        con = (System.console().readLine());
+		        int decsticky = 2
 		    }
 		    
 		    
@@ -335,6 +338,7 @@ public class Main{
             con = (System.console().readLine());
             System.out.println("PLEASE INSERT YOUR NAME:");
             String name = (System.console().readLine());
+            name = name.substring(0, 1).toUpperCase() + name.substring(1);
             System.out.println("You: "+name+".");
             con = (System.console().readLine());
             System.out.println("Syd: Huh?");
@@ -359,11 +363,149 @@ public class Main{
             con = (System.console().readLine());
             System.out.println("*a girl with black hair and dull green eyes emerges from door FOUR*");
             con = (System.console().readLine());
-            System.out.println("*door ONE is a boy with ");
+            System.out.println("*door ONE is a boy with sleek black hair and the same dull green eyes as the girl*");
             con = (System.console().readLine());
+            System.out.println("*Syd: These are the twins - Dawn and Damien!");
+            con = (System.console().readLine());
+            System.out.println("*Damien waves at you*");
+            con = (System.console().readLine());
+            System.out.println("*you smile and wave back*");
+            con = (System.console().readLine());
+            System.out.println("*the girl, Dawn, looks you up and down*");
+            con = (System.console().readLine());
+            System.out.println("*finally, she gives you a cold stare, her eyes burning with hatred*");
+            con = (System.console().readLine());
+            System.out.println("*you look back at her and shrug*");
+            con = (System.console().readLine());
+            System.out.println("Syd: Haha, don't worry, Dawn just has some trust issues...");
+            con = (System.console().readLine());
+            System.out.println("*Dawn rolls her eyes*");
+            con = (System.console().readLine());
+            System.out.println("Dawn: "+name+" is one of them.");
+            con = (System.console().readLine());
+            System.out.println("Syd: Dawn, let's not get into this...");
+            con = (System.console().readLine());
+            System.out.println("Dawn: You don't remember, do you?");
+            con = (System.console().readLine());
+            System.out.println("*Syd looked down at his feet*");
+            con = (System.console().readLine());
+            System.out.println("You: What going on?");
+            con = (System.console().readLine());
+            System.out.println("Dawn: None of your business.");
+            con = (System.console().readLine());
+            System.out.println("Syd: C'mon Dawn, "+name+" is not like them!");
+            con = (System.console().readLine());
+            System.out.println("Dawn: What about Sara? \"This ones not like them\" is all you say!");
+            con = (System.console().readLine());
+            System.out.println("Dawn: When do you think this one will turn against us just like all the others!?");
+            con = (System.console().readLine());
+            System.out.println("Dawn: When will-");
+            con = (System.console().readLine());
+            System.out.println("Syd: Dawn...");
+            con = (System.console().readLine());
+            System.out.println("*Syd's voice is calm and there is a smile on his face...*");
+            con = (System.console().readLine());
+            System.out.println("*...but you can see him rapidly nudging Dawn*");
+            con = (System.console().readLine());
+            System.out.println("Dawn: Syd, YOU DON'T UNDERSTAND.");
+            con = (System.console().readLine());
+            System.out.println("Dawn: The murders and then the suicides- Do you not care?");
+            con = (System.console().readLine());
+            System.out.println("Dawn: Do you...");
+            con = (System.console().readLine());
+            System.out.println("Dawn: Do you want them to all end up like your brother!?");
+            con = (System.console().readLine());
+            System.out.println(".");
+            con = (System.console().readLine());
+            System.out.println("..");
+            con = (System.console().readLine());
+            System.out.println("...");
+            con = (System.console().readLine());
+            System.out.println("*it is painfully quiet*");
+            con = (System.console().readLine());
+            System.out.println(".");
+            con = (System.console().readLine());
+            System.out.println("..");
+            con = (System.console().readLine());
+            System.out.println("...");
+            con = (System.console().readLine());
+            System.out.println("*finally, Dawn speaks*");
+            con = (System.console().readLine());
+            System.out.println("Dawn: I-I'm sorry... I just-");
+            con = (System.console().readLine());
+            System.out.println("*Dawn starts sobbing*");
+            con = (System.console().readLine());
+            System.out.println("Dawn: They just never last more than a single day...");
+            con = (System.console().readLine());
+            System.out.println("*tears run down Dawn's face*");
+            con = (System.console().readLine());
+            
+            System.out.println();
+		    System.out.println("DECISION: Do you comfort Dawn?");
+		    System.out.println("[1] yes");
+		    System.out.println("[2] no");
+		    String dec = (System.console().readLine());
+		    
+		    if (dec.equals("1")){
+		        System.out.println("*you decide to comfort Dawn*");
+		        con = (System.console().readLine());
+		        System.out.println("You: Hey, it's okay.");
+		        con = (System.console().readLine());
+		        System.out.println("Dawn: ...");
+		        con = (System.console().readLine());
+		        System.out.println("*she smiles, her eyes still full of tears*");
+		        con = (System.console().readLine());
+		        System.out.println("Dawn: Th-Thank you.");
+		        con = (System.console().readLine());
+		    }
+		    
+		    else if (dec.equals ("2")){
+		        System.out.println("*you decide to stay silent*");
+		        con = (System.console().readLine());
+		        System.out.println();
+	            con = (System.console().readLine());
+		        System.out.println("*you continue to watch Dawn cry, and wish that you couldh've done something...*");
+		        con = (System.console().readLine());
+		    }
+		    
+		    else{
+		        System.out.println("*you do nothing*");
+		        con = (System.console().readLine());
+		        System.out.println();
+	            con = (System.console().readLine());
+		        System.out.println("*you continue to watch Dawn cry, and wish that you couldh've comforted her...*");
+		        con = (System.console().readLine());
+		    }
+		    
+		    System.out.println("Mindy: Come on! Stop being depressing. Let's go fill up on food.");
+	        con = (System.console().readLine());
+	        System.out.println("*everyone turns and follows Mindy down the stairs*");
+	        con = (System.console().readLine());
+	        System.out.println("*you all enter the dining room*");
+	        con = (System.console().readLine());
+	        System.out.println("*Mindy walks toward the fridge and takes out some sandwiches*");
+	        con = (System.console().readLine());
+	        System.out.println("*she smiles sheepishly*");
+	        con = (System.console().readLine());
+	        System.out.println("Mindy: Cheer up! Looks like we're having leftovers again~");
+	        con = (System.console().readLine());
+	        System.out.println(".");
+	        con = (System.console().readLine());
+	        System.out.println("..");
+	        con = (System.console().readLine());
+	        System.out.println("...");
+	        con = (System.console().readLine());
+	        System.out.println("*after dinner*");
+	        con = (System.console().readLine());
+	        System.out.println(".");
+	        con = (System.console().readLine());
+	        System.out.println("..");
+	        con = (System.console().readLine());
+	        System.out.println("...");
+	        con = (System.console().readLine());
+	        System.out.println("S");
+	        con = (System.console().readLine());
 
-            
-            
 
 
 
